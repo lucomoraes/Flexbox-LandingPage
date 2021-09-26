@@ -119,15 +119,55 @@ body {
     position: absolute;
 }
 
-.call-to-action {
-    padding: 200px;
+.call-to-action-box {
+    width: 1000px;
+    margin: 0 auto;
+    margin: 100px auto;
+    border-radius: 6px;
+    background: #3882F6;
+    
+}
+
+.call-to-action-info {    
+    padding: 45px 100px;
+}
+
+.call-to-action-info h3 {    
+    font-size: 20px;
+    color: #FFFFFF;    
+    font-weight: bold;      
+}
+
+.call-to-action-info span {    
+    font-size: 15px;
+    margin: 5px 0px;
+    color: #FFFFFF;     
+}
+
+.call-to-action-separation {
+    display: flex;
+    gap: 250px;
+}
+
+.call-to-action-separation button {
+    width: 120px;
+    bottom: 20px;    
+    height: 35px;
+    cursor: pointer;
+    color: #FFFFFF;    
+    font-weight: 900;
+    position: relative;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
 }
 
 footer {    
-    padding: 40px;
+    padding: 35px;
     color: #F9FAF8;
     text-align: center;
     background: #1F2937; 
+    
 }
 
 
